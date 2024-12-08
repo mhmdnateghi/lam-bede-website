@@ -1,0 +1,645 @@
+@font-face {
+    font-family: 'IRANSansWeb_FaNum_Light';
+    src: url(/fonts/IRANSansWeb_FaNum_Light.ttf);
+    src: url(/fonts/IRANSansWeb_FaNum_Light.ttf) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: IRANSansWeb_FaNum_Light;
+}
+
+/* --------------------------------- */
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(/pic/bg.gif);
+    background-position: center;
+    background-size: cover;
+}
+
+.header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header img {
+    align-items: center;
+    position: relative;
+    width: 15%;
+    height: 35%;
+    left: 42%;
+    z-index: 1;
+}
+
+/* --------------------------------- */
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: center;
+}
+
+.rightNav {
+    float: right;
+}
+
+/* --------------------------------- */
+.centerNav {
+    display: inline-block;
+}
+
+.centerNav li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 30px;
+    margin: 0px 30px;
+    position: relative;
+    transition-duration: 0.4s;
+    border: 2px solid #3ababf;
+    border-radius: 50px 50px;
+    cursor: pointer;
+}
+
+.centerNav li:hover {
+    border: 2px solid white;
+}
+
+.centerNav li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* --------------------------------- */
+.leftNav {
+    float: left;
+}
+
+.leftNav li a img {
+    height: 30px;
+    width: 30px;
+}
+
+.leftNav li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+/* --------------------------------- */
+.text-box {
+    width: 100%;
+}
+
+.text-box p {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 14px 14px;
+    width: 35%;
+    height: 35%;
+    color: #ffffff;
+    font-size: 24px;
+    position: relative;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 6% 6% 6% 6%;
+    margin: 30px 0 40px;
+}
+
+/* --------------------------------- */
+.hero-btn {
+    padding: 8px 50px;
+    background-color: #ff4822;
+    position: relative;
+    cursor: pointer;
+    border-radius: 50px 0px 50px 50px;
+    transition: 0.4s;
+    left: 43%;
+    bottom: 15em;
+    font-family: IRANSansWeb_FaNum_Light;
+    border: none;
+}
+
+.hero-btn:hover {
+    cursor: pointer;
+    background-color: #fa6b4f;
+}
+
+.hero-btn a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/* --------------------------------- */
+
+.second {
+    display: inline-block;
+    width: 100%;
+}
+
+.secondTitle {
+    text-align: center;
+    padding: 7% 0 4% 0;
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+.secondImage {
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin: 0 10% 0 10%;
+}
+
+.secondBox {
+    float: right;
+    width: 50%;
+    position: relative;
+    direction: rtl;
+    margin-top: 8%;
+}
+
+.secondTitle2 {
+    background-color: #329ba6;
+    color: #ffffff;
+    padding: 1% 6% 1% 6%;
+    margin-left: 20%;
+    margin-right: 0;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.secondParagraph {
+    padding: 5% 6% 1% 0;
+    margin-left: 20%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* --------------------------------- */
+.third {
+    background-color: #e1edf7;
+    display: inline-block;
+    width: 100%;
+}
+
+.thirdImage {
+    position: relative;
+    float: right;
+    width: 30%;
+    height: 30%;
+    margin: 0 10% 0 10%;
+}
+
+.thirdBox {
+    float: left;
+    width: 50%;
+    position: relative;
+    direction: rtl;
+    margin-top: 8%;
+}
+
+.thirdTitle {
+    background-color: #329ba6;
+    color: #ffffff;
+    padding: 1% 6% 1% 6%;
+    margin-right: 20%;
+    margin-left: 0;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.thirdParagraph {
+    padding: 5% 0 1% 6%;
+    margin-right: 20%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* --------------------------------- */
+
+.fourth {
+    display: inline-block;
+    width: 100%;
+}
+
+.fourthImage {
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin: 0 10% 0 10%;
+}
+
+.fourthBox {
+    float: right;
+    width: 50%;
+    position: relative;
+    direction: rtl;
+    margin-top: 8%;
+}
+
+.fourthTitle {
+    background-color: #329ba6;
+    color: #ffffff;
+    padding: 1% 6% 1% 6%;
+    margin-left: 20%;
+    margin-right: 0;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.fourthParagraph {
+    padding: 5% 6% 1% 0;
+    margin-left: 20%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* --------------------------------- */
+.fifth {
+    height: 70vh;
+    width: 100%;
+    background-image: url(/pic/bg.png);
+    background-color: #ebebeb;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.fifthList {
+    float: right;
+    padding-top: 4%;
+    color: #424a52;
+    font-size: 2.5vh;
+    font-weight: bold;
+    direction: rtl;
+    text-align: justify;
+    list-style-type: none;
+    width: 25%;
+}
+
+.fifthList li {
+    padding: 20px;
+    text-align: justify;
+}
+
+.fifthListCircle {
+    background-color: #329ba6;
+    color: white;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: block;
+    float: right;
+    padding-top: 1%;
+    margin-left: 3%;
+}
+
+/* --------------------------------- */
+.sixth {
+    color: white;
+    font-size: 4vh;
+    background-image: url(/pic/app.gif);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    text-align: center;
+}
+
+.sixthParagraph {
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.sixthImage {
+    height: 17%;
+    height: 17%;
+}
+
+.sixth a {
+    border: none;
+    border-radius: 7px 7px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.sixth a:hover {
+    opacity: 0.9;
+}
+
+/* --------------------------------- */
+.seventh {
+    display: inline-block;
+    width: 100%;
+}
+
+.seventhImage {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 25%;
+    margin: 4% 10% 4% 10%;
+}
+
+.seventhBox {
+    float: right;
+    width: 50%;
+    position: relative;
+    direction: rtl;
+    margin-top: 8%;
+}
+
+.seventhTitle {
+    color: #353537;
+    margin-right: 15%;
+    font-size: 4.5vh;
+    font-weight: bold;
+}
+
+.seventhParagraph {
+    padding-top: 4%;
+    padding-left: 22%;
+    margin-right: 15%;
+    font-size: 20px;
+    color: #8d8f90;
+    text-align: justify;
+}
+
+.seventhButton {
+    position: relative;
+    font-family: IRANSansWeb_FaNum_Light;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: #198f9b;
+    border: 2px solid #198f9b;
+    border-radius: 50px 50px;
+    margin-right: 15%;
+    margin-top: 3%;
+}
+
+.seventhButton:hover {
+    background-color: #198f9b;
+    color: white;
+}
+
+/* --------------------------------- */
+footer {
+    background-color: #37383a;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.footerLine {
+    margin: auto;
+    margin-bottom: 30px;
+    border: 1px solid white;
+    width: 37%;
+}
+
+.footerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.social a {
+    text-decoration: none;
+    font-size: 24px;
+    color: inherit;
+    margin-left: 30px;
+    transition: 0.4s;
+}
+
+.social a:hover {
+    opacity: 0.7;
+}
+
+footer ul {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 2%;
+    border-left: 2px solid #198f9b;
+}
+
+footer ul li a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+footer ul li a:hover {
+    opacity: 1;
+}
+
+.copyright {
+    color: #aaa;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+}
+
+/* --------------------------------- */
+/* --------------------------------- */
+
+@media(max-width:700px) {
+
+    .secondImage {
+        width: 100%;
+        height: 30%;
+        margin: 0;
+    }
+
+    .secondBox {
+        direction: rtl;
+        width: 100%;
+    }
+
+    .secondTitle2 {
+        background-color: #329ba6;
+        color: #ffffff;
+        font-size: 20px;
+        text-align: center;
+        padding: 1% 6% 1% 6%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .secondParagraph {
+        font-size: 17px;
+        text-align: center;
+        padding: 5% 2% 0 2%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    /* ---------------- */
+    .thirdImage {
+        width: 100%;
+        height: 30%;
+        margin: 0;
+    }
+
+    .thirdBox {
+        direction: rtl;
+        width: 100%;
+    }
+
+    .thirdTitle {
+        background-color: #329ba6;
+        color: #ffffff;
+        font-size: 20px;
+        text-align: center;
+        padding: 1% 6% 1% 6%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .thirdParagraph {
+        font-size: 17px;
+        text-align: center;
+        padding: 5% 2% 0 2%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    /* ---------------- */
+    .fourthImage {
+        width: 100%;
+        height: 30%;
+        margin: 0;
+    }
+
+    .fourthBox {
+        direction: rtl;
+        width: 100%;
+    }
+
+    .fourthTitle {
+        background-color: #329ba6;
+        color: #ffffff;
+        font-size: 20px;
+        text-align: center;
+        padding: 1% 6% 1% 6%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .fourthParagraph {
+        font-size: 17px;
+        text-align: center;
+        padding: 5% 2% 0 2%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    /* ---------------- */
+    .fifthList {
+        padding-top: 15%;
+        color: #424a52;
+        font-size: 2.5vh;
+        font-weight: bold;
+        direction: rtl;
+        text-align: justify;
+        list-style-type: none;
+        width: 100%;
+    }
+
+    .fifthList li {
+        padding: 20px;
+        text-align: justify;
+    }
+
+    .fifthListCircle {
+        background-color: #329ba6;
+        color: white;
+        text-align: center;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        display: block;
+        float: right;
+        padding-top: 1%;
+        margin-left: 3%;
+    }
+
+    /* ---------------- */
+    .seventhImage {
+        width: 100%;
+        height: 30%;
+        margin: 0;
+        padding: 10%;
+    }
+
+    .seventhBox {
+        direction: rtl;
+        width: 100%;
+    }
+
+    .seventhTitle {
+        text-align: center;
+        padding: 1% 6% 1% 6%;
+        margin-left: 6%;
+        margin-right: 6%;
+        color: #353537;
+        font-size: 4.5vh;
+        font-weight: bold;
+    }
+
+    .seventhParagraph {
+        font-size: 17px;
+        text-align: center;
+        padding: 5% 2% 0 2%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .seventhButton {
+        margin: 6% 30% 0 30%;
+    }
+
+    /* ---------------- */
+}
